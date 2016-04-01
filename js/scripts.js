@@ -26,19 +26,19 @@ $(document).ready(function(){
   $("form#quiz").submit(function(event){
     event.preventDefault();
     var yourName = $("input#name").val();
-    var yourDrink = $("input:radio[name=drink]:checked").val();
+    var yourDrink = parseInt($("input:radio[name=drink]:checked").val());
     var yourHobby = $("#hobby").val();
-    var yourKids = $("input:radio[name=kids]:checked").val();
+    var yourKids = parseInt($("input:radio[name=kids]:checked").val());
 
-    if (yourDrink = 0){
+    if (yourDrink === 0){
       var drinkName = "Coffee";
       var result = "Italy";
     };
-    if (yourDrink = 1){
+    if (yourDrink === 1){
       var drinkName = "Whiskey";
       var result = "Scotland";
     };
-    if (yourDrink = 2){
+    if (yourDrink === 2){
       var drinkName = "Wine";
       var result = "Bordeaux";
     };
@@ -46,10 +46,10 @@ $(document).ready(function(){
     if (yourName){
         $(".out").show();
 
-        $(".addResult").text(result).val();
-        $(".addName").text(yourName).val();
-        $(".addHobby").text(yourHobby).val();
-        $(".addDrink").text(drinkName).val();
+        $(".addResult").text(result);
+        $(".addName").text(yourName);
+        $(".addHobby").text(yourHobby);
+        $(".addDrink").text(drinkName);
         }
     else {
       alert("Please enter your name.");
