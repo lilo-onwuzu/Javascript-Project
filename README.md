@@ -12,7 +12,6 @@
 
 #### _Setup/Installation Requirements_
 	Clone this repository before setting up
-	Click to view description of the listed terms
 
 #### _Known Bugs_
  	None
