@@ -11,7 +11,8 @@
 	This site collects some information about the user and suggests a vacation location based on the user's inputs
 
 #### _Setup/Installation Requirements_
-	Clone this repository before setting up
+	Clone this repository
+	Open index.html file in browser
 
 #### _Known Bugs_
  	None
