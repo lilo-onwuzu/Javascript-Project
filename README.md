@@ -1,32 +1,28 @@
-# _Where To Spend Your Vacation_
+## _Title_
+	Epicodus- Introduction to Programming - Vacation Spot
+	
+#### _Creator_
+	Lilo Onwuzu 
+	
+#### _Date_
+	04.01.2016
 
-#### _Week 2 Project Epicodus_
+#### _Description_
+	This site collects some information about the user and suggests a vacation location based on the user's inputs
 
-#### By _**Ililochi Onwuzu**_
+#### _Setup/Installation Requirements_
+	Clone this repository before setting up
+	Click to view description of the listed terms
 
-## Description
+#### _Known Bugs_
+ 	None
 
-_This code allows you collect some information about the user and suggests a vacation location based on the user's inputs_
+#### _Support and contact details_
+	lpr422@gmail.com
+	
+#### _Technologies Used_
+	HTML, Custom CSS, Bootstrap CSS, Javascript, JQuery
 
-## Setup/Installation Requirements
-
-* _Use the background setting on the top right to change the background from dark to light and back to the default. Hit Submit to see your vacation suggestion_
-
-
-## Known Bugs
-
-_None_
-
-## Support and contact details
-
-_lpr422@gmail.com_
-
-## Technologies Used
-
-_HTML, CSS, Javascript, JQuery_
-
-### License
-
-*This Software Is Licensed Under MIT.*
-
-Copyright (c) 2015 **_Onwuzu, LPO Inc._**
+#### _License_
+	This software is licensed under the MIT license
+	Copyright (c) 2016 IPONWUZU
